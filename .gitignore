@@ -1,3 +1,6 @@
 .DS_Store
 scraper_local_file.ipynb
 embedding_model/
+scraper.ipynb
+sentiment.ipynb
+chinese_converting.ipynb
