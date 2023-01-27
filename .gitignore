@@ -1,5 +1,6 @@
 # system files
 .DS_Store
+funcs/__pycache__/
 
 # old ipynb
 scraper_local_file.ipynb
