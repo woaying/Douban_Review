@@ -5,7 +5,7 @@ def cleantext(text):
     cleanr = re.compile('<.*?>')
     text = re.sub(cleanr, ' ', text)
     text = re.sub(r"[-()\"#/@;:<>{}=~|.?,]", "", text)
-    text = re.sub("([^\u4e00-\u9fa5])", " ", text)
+    text = re.sub("([^\u4e00-\u9fa5])", "", text)
     return text
 
 def file_path_name_generator(dir):
