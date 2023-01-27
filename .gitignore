@@ -1,6 +1,15 @@
+# system files
 .DS_Store
+
+# old ipynb
 scraper_local_file.ipynb
-embedding_model/
 scraper.ipynb
 sentiment.ipynb
 chinese_converting.ipynb
+
+# model folder
+embedding_model/
+
+# img files
+*.png
+*.jpg
